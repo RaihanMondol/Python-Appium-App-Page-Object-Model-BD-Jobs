@@ -38,5 +38,5 @@ class SearchTest(BasePage):
         time.sleep(3)
         search.click_final_search_icon()
         time.sleep(10)
-        
+
         self.driver.swipe(400, 1500, 400, 800, 1000)
